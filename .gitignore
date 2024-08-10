@@ -1,0 +1,18 @@
+*.pyc
+build/*
+dist/*
+*.egg-info/
+.coverage
+.venv*
+.tox*
+venv*
+**/cache/*.json
+
+#eclipse generated files
+.project
+.pydevproject
+.settings/*
+
+#jekyll generated pages
+docs/.jekyll-metadata
+.idea/
